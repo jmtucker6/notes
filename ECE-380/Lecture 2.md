@@ -80,3 +80,21 @@ Example: L = x1 * x2
 *DeMorgan's Theorem*: Combined NOT becomes separate NOTS with AND NOT switched
   - ~(x*y) = ~x + ~y
   - ~(x+y)= ~x * ~y
+
+## Commonly Used Laws
+
+1. (x + y) * (x + z) = x + yz
+  - version of distributive law
+  - proof: x*x + xz + yx + yz => x(1 + z + y) + yz => x*1 + yz
+2. (x + y) * (x + ~y) = x + y * ~y = x
+  - y * ~y = 0
+3. x * (x + y) = x
+  - proof: x*x + xy = x * (1 + y) = x
+4. x + xy = x
+  - same proof as above
+5. xy + x * ~y = x
+  - proof: x * (y + ~y) => x * 1 => x
+
+## Venn Diagram
+
+Sample Venn Diagrams: ![venn](http://www.jeffreythompson.org/blog/wp-content/uploads/2010/04/348px-LogicGates.svg_.png)
